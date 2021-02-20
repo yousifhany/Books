@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background: #2f303a;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+nav ul{
+	background: orange;
+}
+nav ul li{
+	padding: 15px;
+	display: inline-block;
+	transition: all 0.4s ease;
+}
+li:hover{
+	font-size: 25px;
+	cursor: pointer;
+	background: black;
+}
